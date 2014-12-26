@@ -6,7 +6,7 @@ This project is made for educational purposes only, stability of which is not gu
 
 Build Instruction
 -----------------
-* To build PLC, execute `make`. (LALR parser must be built and executed at least once in order to generate `parser/rule.h`)
+* To build PLC, execute `make`. (LALR parser must be built and executed at least once in order to generate `parser/rules.h`)
 * To build LALR parser, execute `make` in `parser/` directory.
 * To build the unit test for LALR parser, execute `make test` in `parser/` directory.
 * To build machine simulator, execute `make` in `machine/` directory.
